@@ -31,7 +31,7 @@ export default function Weather(props) {
         <input type="submit" value="Search"  />
       </form>
       <br />
-      <h1 id="city"></h1>
+      <h1>New York</h1>
 
       <ul>
         <li id="todays-date">

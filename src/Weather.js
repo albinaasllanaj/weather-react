@@ -8,7 +8,7 @@ export default function Weather(props) {
    
     function handleResponse(response) {
         
-        alert(`The weather in ${response.data.name} is ${Math.round(response.data.main.temp)} C `)
+        alert(`The weather in ${response.data.name} is currnetly ${Math.round(response.data.main.temp)} C `)
         
     }
     let apiKey ="3a94f3778290bfeee61278505dbbe51d"
